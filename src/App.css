@@ -8,56 +8,14 @@ body {
   overflow: hidden;
 }
 
-.bg_img {
-  width: 100%;
-  min-height: 100vh;
-  background: url("../public/img.png") no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: #fff;
+.title{
+  width: auto;
+  backdrop-filter: blur(4px);
+  font-size: 48px;
+  border-radius: 8px;
+  text-align: center;
 }
 
-.input {
-  background-color: rgba(255, 255, 255, 0.75);
-}
-
-.group{
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  margin: 1rem 0;
-}
-
-.city {
-  margin-bottom: 2rem;
-}
-
-.city, .temp {
-  font-size: 3rem;
-}
-
-.box_container{
-  margin-top: 2rem;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  gap: 25px;
-}
-
-.box{
-  padding: 1rem;
-  border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.75);
-  width: 220px;
-  text-align:  center;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  transition: transform 0.25s;
-}
-
-.box:hover{
-  transform: scale(1.1);
+.element{
+  backdrop-filter: blur(4px);
 }

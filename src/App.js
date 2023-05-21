@@ -22,7 +22,7 @@ function App() {
   const [queryError, setQueryError] = useState(false);
   
   const getWeather = async () => {
-    await fetch(`http://api.weatherapi.com/v1/current.json?key=9b86b58e990f402a938234936231805&q=${query}`)
+    await fetch(`https://api.weatherapi.com/v1/current.json?key=9b86b58e990f402a938234936231805&q=${query}`)
       .then((res) => {
         if (res.status === 200) {
           return res.json();
